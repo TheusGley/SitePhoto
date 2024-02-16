@@ -1,0 +1,288 @@
+body {
+  background-image: url('../static/fundo.png');
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed; /* Adiciona o efeito de fixar o plano de fundo durante o scroll */
+  height: 100vh;
+  margin: 0; 
+  justify-content: center; 
+  align-items: center; 
+}
+  .nav {
+    
+      background-color: rgba(0, 0, 0, 0.634); 
+      top: 0;
+      width: 100%;
+      z-index: 100; 
+      padding-left: 5%;
+    }
+
+    .logo {
+      width: 80px;
+      border-radius: 10px;
+      padding-left: 30%;
+      margin-top :10px;
+  
+    }
+  
+  .link-nav{
+
+    font-size: 30px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    font-style: normal;
+    
+  }
+
+  .carroussel{
+    position: relative;
+    width: 150vh; 
+    height: 100vh;
+  }
+  .carousel-item img{
+
+    width:200px;
+    height: 100vh;
+    border-radius: 10px;
+    
+  }
+
+  
+ h3 {
+    padding: 30px;
+    position: relative;
+    font-size: 36px;
+    font-family: 'Signika', sans-serif;
+  }
+  
+  .album {
+    position: relative;
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    height:max-content;
+  }
+  .container h3 {
+
+    margin-top: 20px;
+    padding-left: 38%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: goldenrod;
+  }
+  
+
+
+ 
+  
+  .card-primary {
+    padding-top: 10px;
+    width: 50vh ;
+    height: 70vh;
+    position: relative;
+    border-radius: 10px;
+    transition: transform .2s;
+  }
+  
+  .card-secondary {
+    padding-top: 10px;
+    padding-left: 45px;
+    width: 100vh;
+    height: 70vh;
+    border-radius: 10px;
+    transition: transform .2s;
+  }
+
+  .card-tercery {
+    padding-top: 10px;
+    padding-left: 30%;
+    width: 150vh;
+    height: 70vh;
+    border-radius: 20px;
+    transition: transform .2s;
+  }
+
+
+
+  
+  .card {
+    width: 40vh;
+    height: 30vh;
+    margin-left: 7%;
+    transition: transform .2s;
+  }
+
+
+  .card img{
+    width: 100%;
+  }
+  
+
+
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .card-primary:hover {
+    transform: scale(1.1);
+  }
+  .card-secondary:hover {
+    transform: scale(1.1);
+  }
+  .card-in:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .list-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+  
+   
+  }
+  
+ 
+  .icon {
+    font-size: 40px; 
+   position: relative;
+    color: aliceblue;
+  }
+
+  .font{ 
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+     color:white;
+    font-size: 30px;
+  }
+
+  .div-textApresentacao{
+    padding-top: 10px;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 4%;
+    /* background-image: url(papel.jpg); */
+  }
+
+  .font-text{
+    margin: 5px;
+    font-family: 'Playfair Display', serif;
+        font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+  .caption h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .caption p {
+    margin: 0;
+    font-size: 1em;
+    opacity: 0.8;
+  }
+  
+ 
+  .content {
+    flex: 1; /* Expande o conteúdo para ocupar o espaço restante */
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  .content{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .auto{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    transition: transform .2s;
+
+
+  } 
+   .auto:hover {
+    transform: scale(1.1);
+  }
+ 
+  .auto-pos2{
+    width: 40%;
+    height: 40%;
+    position:absolute;
+    margin-top:25%;
+    transition: transform .2s;
+
+
+  }
+  .auto-pos2:hover {
+    transform: scale(1.1);
+  }
+  .auto-pos3{
+    width: 20%;
+    height: 20%;
+    position:absolute;
+    margin-left: 70%;
+  transition: transform .2s;
+
+  }
+  .auto-pos3:hover {
+    transform: scale(1.1);
+  }
+
+   .auto-pos4{
+    width: 40%;
+    height: 40%;
+    position:absolute;
+    margin-top:25%;
+
+
+  }
+   .auto-pos5{
+    width: 40%;
+    height: 40%;
+    position:absolute;
+    margin-top:25%;
+
+
+  }
+
+  .auto-pos1{
+    width: 20%;
+    height: 30%;
+    position:absolute;
+    margin-top: 15%;
+    transition: transform .2s;
+    margin-left: 70%;
+  
+
+  }
+  .auto-pos1:hover {
+    transform: scale(1.1);
+  }
+  
+  .content img {
+    border-radius: 10px;
+    flex: 1; /* Permite que as imagens ocupem o espaço disponível igualmente */
+    max-width:100%; /* Impede que as imagens ultrapassem a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
