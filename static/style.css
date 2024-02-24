@@ -259,7 +259,7 @@ body {
 
     position: absolute;
     width: 60vh;
-    margin-left: 45%;
+    margin-left: 41%;
     border-radius: 10px;
     background-color:#fff ;  
   }
@@ -279,7 +279,7 @@ body {
   .div-ret {
 
       position: absolute;
-      margin-left: 77%;
+      margin-left: 75%;
       margin-top: 65%;
       border-radius: 10px;
       background-color:#fff ;  
@@ -289,8 +289,8 @@ body {
   
   .card-ret{
     width: 40vh;
-    height: 50vh;
-    transition: transform .2s;
+      height: 50vh;
+      transition: transform .2s;
 
 
   }
@@ -420,11 +420,8 @@ body {
   }
   
  
-  .content {
-    flex: 1; /* Expande o conteúdo para ocupar o espaço restante */
-    padding: 20px;
-  }
-  
+
+
   .footer {
     background-color: #333;
     color: white;
@@ -432,6 +429,8 @@ body {
     padding: 10px;
   }
 
+
+  /* Album */
 
   .content{
     gap: 10px;
@@ -471,7 +470,7 @@ body {
     width: 20%;
     height: 20%;
     position:absolute;
-    margin-left: 60%;
+    margin-left: 70%;
   transition: transform .2s;
 
   }
@@ -514,10 +513,35 @@ body {
     position: relative;
 
   }
+
+  
   .content img {
     border-radius: 10px;
-    flex: 1; /* Permite que as imagens ocupem o espaço disponível igualmente */
-    max-width:100%; /* Impede que as imagens ultrapassem a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    flex: 1; 
+    max-width:100%; 
+    height: auto; 
 }
 
+
+.list-card-album{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;    
+  flex-direction: row;
+  width:auto;
+  margin-left: 25%;
+}
+
+.card-album {
+  width: 40vh;
+  height: 40vh;
+
+}
+
+
+.card-album2 {
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+
+}
