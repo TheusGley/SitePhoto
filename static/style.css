@@ -372,6 +372,20 @@ body {
   }
   
   
+  .card-psg3{
+    width: 70vh;
+    height: 20vh;
+    margin-left: 30%;
+    transition: transform .2s;
+
+
+  }
+
+  .card-psg3:hover {
+    transform: scale(1.1);
+  }
+  
+  
 
   
  
@@ -445,9 +459,7 @@ body {
   .auto{
     width: 40%;
     height: 40%;
-    position: relative;
-    transition: transform .2s;
-
+    transition: transform .2s
 
   } 
    .auto:hover {
@@ -468,13 +480,33 @@ body {
   }
   .auto-pos3{
     width: 20%;
-    height: 20%;
-    position:absolute;
-    margin-left: 70%;
-  transition: transform .2s;
+    padding: 10px;
+    transition: transform .2s;
 
   }
   .auto-pos3:hover {
+    transform: scale(1.1);
+  }
+  .auto-pos10{
+    width: 20%;
+    height: 20%;
+    position:relative;
+    transition: transform .2s;
+
+  }
+  .auto-pos10:hover {
+    transform: scale(1.1);
+  }
+  .auto-pos11{
+    width: 20%;
+    height: auto;
+    position:relative;
+    margin-left: 4%;
+    margin-top: 4%;
+    transition: transform .2s;
+
+  }
+  .auto-pos11:hover {
     transform: scale(1.1);
   }
 
@@ -501,7 +533,7 @@ body {
     position:absolute;
     margin-top: 15%;
     transition: transform .2s;
-    margin-left: 70%;
+    margin-left: 58%;
   
 
   }
@@ -528,20 +560,81 @@ body {
   display: flex;
   flex-wrap: wrap;    
   flex-direction: row;
-  width:auto;
-  margin-left: 25%;
+  margin-top: 10%;
 }
 
 .card-album {
   width: 40vh;
   height: 40vh;
+  transition: transform .2s;
 
+
+}
+.card-album :hover {
+  transform: scale(1.1);
 }
 
 
-.card-album2 {
-  position: absolute;
-  width: 50vh;
-  height: 50vh;
 
+.card-album2 {
+  width: 40vh;
+  height: 40vh;
+  margin-top: 15%;
+  margin-left: 2px;
+  transition: transform .2s;
+
+
+}
+.card-album2 :hover {
+  transform: scale(1.1);
+
+}
+
+.card-album3 {
+  width: 40vh;
+  height: 40vh;
+  margin-left: 2px;
+  margin-top: 20%;  
+  transition: transform .2s;
+
+
+
+}
+
+.card-album3 :hover {
+  transform: scale(1.1);
+}
+
+
+/* PLANOS*/
+
+.div-planos{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;    
+  flex-direction:   row;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+
+
+.plano-1{
+width: 40vh;
+height: 45vh;
+background-color: #fff;
+}
+.plano-2{
+  width: 40vh;
+  height: 50vh;
+  margin-left: 5%;
+  background-color: #fff;
+
+}
+.plano-3{
+  width: 40vh;
+  margin-left: 5%;
+  height: 55vh;
+  background-color: #fff;
 }
